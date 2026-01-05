@@ -153,6 +153,11 @@ h1 {
 .app-title {
   margin: 0;
 }
+
+.app-header a {
+  text-decoration: none;
+}
+
 /* Particle Animation */
 @keyframes floatDrift {
   0% { transform: translateY(100vh) translateX(0vw) scale(0.8); opacity:0; }

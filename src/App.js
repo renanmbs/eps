@@ -63,11 +63,15 @@ function App() {
       <div className="App">
         <header className="app-header">
           {logo && (
-            <img
-              src={logo}
-              alt="Company Logo"
-              className="app-logo"
-            />
+            <a
+              href="https://monarchintranet.netlify.app/"
+            >
+              <img
+                src={logo}
+                alt="Monarch Intranet"
+                className="app-logo"
+              />
+            </a>
           )}
           <h1 className="app-title">EPS Lead Times</h1>
         </header>
