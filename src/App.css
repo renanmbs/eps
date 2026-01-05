@@ -128,7 +128,7 @@ h1 {
 
 .particle {
   position: absolute;
-  background: #C31F27;
+  background: white;
   border-radius: 50%;
   opacity: 0;
   animation: floatDrift linear infinite;
