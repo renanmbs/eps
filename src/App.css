@@ -68,7 +68,6 @@ h1 {
   display: inline-block;
   background: rgba(255,255,255,0.95);
   color: #333;
-  border: 1px solid rgba(179, 0, 0, 0.2);
   border-radius: 12px;
   padding: 1.5rem 2rem;
   margin: 1rem auto; 
