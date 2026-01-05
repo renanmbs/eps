@@ -61,7 +61,17 @@ function App() {
       </div>
 
       <div className="App">
-        <h1>EPS Lead Times</h1>
+        <header className="app-header">
+          {logo && (
+            <img
+              src={logo}
+              alt="Company Logo"
+              className="app-logo"
+            />
+          )}
+          <h1 className="app-title">EPS Lead Times</h1>
+        </header>
+
         <p className="today-date">Today: {new Date().toLocaleDateString()}</p>
 
         <label className="input-label">
@@ -117,7 +127,6 @@ function App() {
             </div>
           ))}
         </div>
-        {logo && <img src={logo} alt="Company Logo" style={{ marginTop: '2rem', width: '25rem' }} />}
       </div>
     </>
   );

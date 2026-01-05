@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   overflow-y: auto;
-  background: #333b41;
+  background: #333B41;
 }
 
 /* App Container */
@@ -54,7 +54,7 @@ h1 {
 }
 
 .qty-input:focus {
-  border-color: rgb(179, 0, 0);
+  border-color: #C31F27;
   outline: none;
   box-shadow: 0 0 5px rgba(179, 0, 0, 0.4);
 }
@@ -110,7 +110,7 @@ h1 {
 
 .card.active {
   border: 2px solid white;
-  background: rgba(138, 0, 0, 0.962);
+  background: #c31f278d;
   transform: scale(1.03);
   color: white;
 }
@@ -128,12 +128,32 @@ h1 {
 
 .particle {
   position: absolute;
-  background: rgba(255,255,255,0.5);
+  background: #C31F27;
   border-radius: 50%;
   opacity: 0;
   animation: floatDrift linear infinite;
 }
 
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* keeps title centered */
+  position: relative;
+  padding: 1rem 2rem 1rem;
+}
+
+/* Logo pinned to far left */
+.app-logo {
+  position: absolute;
+  left: 2rem;
+  height: 6rem;
+  width: auto;
+}
+
+/* Title stays centered */
+.app-title {
+  margin: 0;
+}
 /* Particle Animation */
 @keyframes floatDrift {
   0% { transform: translateY(100vh) translateX(0vw) scale(0.8); opacity:0; }
