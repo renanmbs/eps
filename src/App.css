@@ -144,7 +144,7 @@ h1 {
 /* Logo pinned to far left */
 .app-logo {
   position: absolute;
-  left: 2rem;
+  left: 1rem;
   height: 6rem;
   width: auto;
 }
