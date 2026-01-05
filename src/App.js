@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import logo from "./image/Monarch Metal White Transparent.png";
+import logo from "./image/Monarch3Logo.svg";
 
 const CARD_DATA = [
   { range: "1 to 50", min: 1, max: 2 },
