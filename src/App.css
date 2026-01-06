@@ -155,7 +155,11 @@ h1 {
 }
 
 .app-header a {
-  text-decoration: none;
+  position: absolute;
+  left: 1rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
 }
 
 /* Particle Animation */
